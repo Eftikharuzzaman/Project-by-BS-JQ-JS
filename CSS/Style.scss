@@ -1,0 +1,19 @@
+// ===========================> Common CSS Start <==========================
+@import "reset";
+@import "root";
+// ===========================>  Common CSS End <=========================== 
+
+// ==========================> Responsive CSS Start <======================
+@import "responsive";
+// ==========================> Responsive CSS End <========================
+
+// ===========================> Body Part Start <=========================
+@import "menu";
+@import "banner";
+@import "service";
+@import "portfolio";
+@import "team";
+@import "customer";
+@import "News";
+@import "footer";
+// ===========================> Body Part End <===========================

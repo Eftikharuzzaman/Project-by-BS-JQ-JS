@@ -1,0 +1,46 @@
+#main_menu{
+    ul{
+        width: 510px;
+
+        li{
+            position: relative;
+            margin: 0 20px;
+
+            a{
+                font-family: 'Inter', sans-serif;
+                color: #181818;
+                font-size: 18px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            &::before{
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 0;
+                width: 0;
+                height: 2px;
+                background: var(--bg-color);
+                transition: 0.4s all linear;
+            }
+            &::after{
+                content: '';
+                position: absolute;
+                right: 0;
+                bottom: 0;
+                width: 0;
+                height: 2px;
+                background: var(--bg-color);
+                transition: 0.4s all linear;
+            }
+            &:hover::after{
+                width: 40%;
+            }
+            &:hover::before{
+                width: 40%;
+            }
+        }
+    }
+}

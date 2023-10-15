@@ -1,0 +1,42 @@
+#team{
+    .slick_slider{
+        .slider_item{
+            .item{
+                cursor: pointer;
+                
+                img{
+                    width: 350px;
+                    height: 350px;
+                    border-radius: 10px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                    background-size: cover;
+                }
+            }
+        }
+        .slick-dots{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 30px;
+
+            li{
+                button{
+                    font-size: 0;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    background: #dfe4ea;
+                    margin: 0 8px;
+                    cursor: pointer;
+                    outline: none;
+                }
+            }
+            .slick-active{
+                button{
+                    background: var(--bg-color);
+                }
+            }
+        }
+    }
+}
